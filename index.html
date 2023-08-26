@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="STOP WATCH" />
+    <meta name="keywords" content="STOP WATCH javascript html css html5 css3 bootstrap"/>
+
+    <title>STOP WATCH</title>
+    <link rel="shortcut icon" href="images/stopwatch-svgrepo-com.svg" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <main class="container vh-100 fw-bold d-flex justify-content-center align-items-center">
+        <div class="w-100 ">
+            <div class="row text-center text-white w-100 gx-0 d-flex justify-content-center">
+
+                <div class=" col-2">
+                    <div class="colorful w-100 h-100   border border-0 rounded-4">
+                        <div class="text py-2 w-100 h-100   border border-0 rounded-4">
+                            <div id="hr">00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1 py-2 symbol">:</div>
+                <div class=" col-2">
+                    <div class="colorful  w-100 h-100   border border-0 rounded-4">
+                        <div class="text  py-2 w-100 h-100   border border-0 rounded-4">
+                            <div id="min">00</div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1 py-2 symbol">:</div>
+
+                <div class=" col-2">
+                    <div class="colorful  w-100 h-100    border border-0 rounded-4">
+                        <div class="text  py-2 w-100 h-100   border border-0 rounded-4">
+                            <div id="sec">00</div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1 py-2 symbol"><sub>.</sub></div>
+
+                <div class=" col-2">
+                    <div class="colorful  w-100 h-100   border border-0 rounded-4">
+                        <div class="text  py-2 w-100 h-100   border border-0 rounded-4">
+                            <div id="csec">00</div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="text-center mt-5 d-flex justify-content-center  ">
+
+                <div class="colorful fs-5  border border-0 rounded-4 mx-2">
+                    <div class="text  w-100 h-100   border border-0 rounded-4">
+                        <button class="btn border-0 bg-transparent text-light  px-3" id="repeate"><i
+                            class="fa-solid fa-rotate-right icon"></i></button>
+                    </div>
+                </div>
+
+                <div class="colorful fs-5 border border-0 rounded-4 mx-2">
+                    <div class="text  w-100 h-100   border border-0 rounded-4">
+                        <button class="btn border-0 bg-transparent text-light px-3" id="play"><i
+                                class="fa-solid fa-play icon"></i></button>
+                    </div>
+                </div>
+
+                <div class="colorful fs-5 border border-0 rounded-4 mx-2">
+                    <div class="text  w-100 h-100   border border-0 rounded-4">
+                        <button class="btn border-0 bg-transparent text-light  px-3 disabled" id="pause">
+                            <i class="fa-solid fa-pause icon"></i></button>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </main>
+
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

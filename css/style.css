@@ -1,0 +1,62 @@
+body{
+    font-family: 'Tektur', cursive;
+        background-image: url(../images/nnnoise.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 3rem;
+}
+
+.colorful {
+
+    padding: 0.15rem;
+    background: linear-gradient(45deg , #ffffff,#FF00CC  , #CC00FF,
+ #099FFF,#00FFFF,#099FFF,#FF00CC, #CC00FF,#ffffff)
+;
+box-shadow: 0px 0px 20px 3px #CC00FF;
+}
+
+
+.text{
+background: url(../images/nnnoise.svg);
+background-color:#82628a80;
+
+    color: white;
+}
+.symbol{
+    margin: 0px -1.5rem;
+    }
+    
+.icon{
+    font-size:2rem;
+}
+@media only screen and (max-width:992px) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    .icon{
+        font-size:1rem;
+    }
+    .symbol{
+        margin: 0px -1rem;
+        }
+        
+  }
+
+  @media only screen and (max-width:768px) {
+    body {
+        font-size: 1rem;
+    }
+    .icon{
+        font-size:0.75rem;
+    }
+    .symbol{
+        margin: 0px -0.25rem;
+        }
+        
+
+  }
+
+
+
+
